@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+
+<html>
+<body>
+  <h1> ORDER NOW! </h1>
+
+<form action="thanks.html" method="post">
+<fieldset>
+  <legend> Shipping Info </legend>
+  <label for="name">Name:</label>
+  <input type="text" name="name">
+  <br>
+
+  <label for="address">Address:</label>
+  <input type="text" name="address">
+  <br>
+
+  <label for="city">City:</label>
+  <input type="text" name="city">
+  <label for="state">State:</label>
+  <input type="text" name="state">
+  <label for="zip">Zip:</label>
+  <input type="text" name="zip">
+  <br>
+
+</fieldset>
+
+<fieldset>
+  <legend> Order Info </legend>
+  <label for="size">Size:</label>
+  <select name="sizelist" form="size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+
+  </select>
+
+    <label for="quality">Quality:</label>
+    <input type="text" name="quality">
+  <br>
+
+</fieldset>
+
+  <fieldset>
+    <legend> Payment Info </legend>
+  <label for="credit_type">Credit Type:</label>
+
+  <input type="radio" name="credit_card" value="visa" checked>
+  <label for="visa">Visa</label>
+
+
+  <input type="radio" name="credit_card" value="mc">
+  <label for="mc">Master Card</label>
+
+  <input type="radio" name="credit_card" value="discover">
+  <label for="discover">Discover</label>
+  <br>
+
+  <label for="credit_credit_card">Credit Card Number:</label>
+  <input id=""="credit_card_number" type="text" name="credit_card_number">
+  <br>
+
+<input type="submit" value="Place Order">
+</fieldset>
+
+
+
+
+</form>
